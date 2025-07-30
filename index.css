@@ -9,3 +9,17 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+
+.display-flex{
+    display: flex;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 48px;
+}
+
+.nav-links{
+    text-decoration: none;
+}
