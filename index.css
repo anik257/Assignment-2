@@ -61,3 +61,37 @@
 .margin{
     margin-top: 120px;
 }
+.our-plants{
+    text-align: center;
+}
+
+#p-our-plants{
+    margin: 16px 126px 49px 126px;
+}
+
+.flower{
+     text-align: center;
+}
+
+.card{
+    width: 270px;
+    height: 485px;
+    
+  
+}
+.btn-primary{
+    padding: 19px  80px 19px 80px;                    ;
+ background-color: rgba(233, 90, 8, 1);
+ color: rgba(255, 255, 255, 1);
+ font-weight: 700;
+ border: none;
+}
+
+.card-container{
+    display:flex;
+  gap:10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1140px;
+}
+
