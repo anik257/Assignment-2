@@ -77,6 +77,7 @@
     width: 270px;
     height: 485px;
     
+    
   
 }
 .btn-primary{
@@ -88,10 +89,28 @@
 }
 
 .card-container{
-    display:flex;
-  gap:10px;
+   
+
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 10px;
     max-width: 1140px;
 }
+
+.flower-plants{
+
+margin: 60px;
+
+}
+
+.flower-details{
+margin-top: 196px;
+
+}
+.flower-details img{
+width: 540px ;
+height: 597px;
+
+}
+
 
