@@ -265,5 +265,40 @@ font-size: 1rem;
       background-color: #cc4328;
     }
 
+    .footer{
+    padding: 40px 60px;
+    display: flex;
     
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 30px;
+    }
+.footer-left {
+flex: 1 1 300px;
+margin: 50px;
+}
+.social{
+
+width: 216px;
+height: 36px;
+gap: 24px;
+}
+.social img {
+    width: 36px ;
+    height: 36px;
+}
+
+ .footer-column  ul{
+    list-style: none;
+
+   
+ }
+ .footer-column a{ text-decoration: none; color: rgba(107, 114, 128, 1);}
+ 
+    .footer-columns {
+      display: flex;
+      gap: 40px;
+      flex: 2 1 600px;
+      flex-wrap: wrap;
+    }
 
