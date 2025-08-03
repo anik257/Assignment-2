@@ -117,4 +117,92 @@ margin-top: 196px;
 
 
 }
+#deals{
 
+text-align: center;
+
+}
+.font{font-weight: 700;
+font-size: 3.1rem;
+}
+
+.hi{
+
+ text-align: center ; 
+ margin: 16px 276px 120px 276px;
+ font-size: 12px;
+}
+.bg-container{
+    display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 10px;
+      width: 80%;
+      max-width: 1000px; 
+      
+
+}
+
+.bg-box-1{
+background-image: url(assets/deal-ana.png);
+
+
+}
+
+.bg-box-2{
+    background-image: url(assets/deal-bloom.png);
+
+}
+.bg-box-3{
+
+background-image:url(assets/deal-zabo.png) ;
+
+}
+
+.big{
+grid-row: span 2;
+
+
+}
+.bg-content{
+
+ position: relative;
+      z-index: 2;
+}
+
+.flower{
+
+   position: relative;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.2rem; 
+border-radius: 22px;
+overflow: hidden;
+}
+
+ .flower::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4); /* dark overlay */
+      z-index: 1;
+    }
+    .shop-now {
+      display: block;
+      margin-top: 10px;
+      
+      color: rgba(255, 255, 255, 1);
+      padding: 5px 10px;
+      
+      font-weight: semi-bold;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    
