@@ -53,7 +53,7 @@
 
 .h-container{
     color: rgba(0, 0, 0, 1);
-    font-size: 65;
+
     font-weight: 700;
     margin-top: 162px;
 }
@@ -73,12 +73,10 @@
      text-align: center;
 }
 
-.card{
+.card {
     width: 270px;
     height: 485px;
     
-    
-  
 }
 .btn-primary{
     padding: 19px  80px 19px 80px;                    ;
@@ -88,14 +86,19 @@
  border: none;
 }
 
-.card-container{
+.card-container {
    
 
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
-    max-width: 1140px;
+   max-width: 40%; 
+   text-align: center;
+       
+   
 }
+
+
 
 .flower-plants{
 
